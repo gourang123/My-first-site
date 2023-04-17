@@ -4,6 +4,7 @@
   padding-top: 100px;
 }
 body {
+  color: #40514e;
   text-align: center;
   margin: 0%;
   font-family: "Merriweather Sans", sans-serif;
@@ -25,6 +26,12 @@ h3 {
 }
 a {
   color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
 }
 span {
   text-decoration: underline;
@@ -32,11 +39,11 @@ span {
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 40px;
 }
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 .programmer {
@@ -45,11 +52,13 @@ span {
   color: #66bfbf;
   font-weight: normal;
 }
+p {
+  line-height: 2;
+}
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 .chillies {
   width: 25%;
@@ -67,10 +76,10 @@ span {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #eaf6f6;
-  border-width: 10px;
+  border-color: darkgray;
+  border-width: 6px;
   height: 0px;
-  width: 5%;
+  width: 4%;
   margin: 100px auto 100px auto;
 }
 .intro {
@@ -80,16 +89,17 @@ hr {
 }
 .copyrigh {
   color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
 }
 .contact-me {
   line-height: 2;
   width: 50%;
   margin: auto;
 }
-.footer-link {
-  font-size: 20px;
-  font-family: "Montserrat", sans-serif;
-  margin-right: 50px;
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px;
 }
 .middle-container {
   padding-top: 50px;
@@ -99,8 +109,8 @@ hr {
   line-height: 2;
   margin: 50px auto 0 auto;
   position: relative;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 50px;
+  padding-bottom: 20px;
 }
 .btn {
   background: #11cdd4;
@@ -112,7 +122,7 @@ hr {
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: Arial;
+  font-family: "Montserrat", sans-serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
